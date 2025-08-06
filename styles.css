@@ -56,6 +56,14 @@ body {
 	background-image: url('/images/hot.jpg');
 }
 
+.section:is(#juicy) {
+	background-image: url('/images/juicy.jpg');
+}
+
+.section:is(#cosy) {
+	background-image: url('/images/cosy.jpg');
+}
+
 .section-content {
 	width: 80%;
 	display: flex;
