@@ -1,0 +1,37 @@
+:root {
+	--font-text: 'Poiret One', sans-serif;
+	--font-headings: 'Spirax', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: var(--font-text);
+}
+
+h1 {
+	font-family: var(--font-headings);
+}
+
+body {
+	min-height: 100dvh;
+	background-color: darkred;
+}
+
+.header {
+	background-color: rgba(37, 1, 1, 0.7);
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
+
+.section {
+	min-height: 100dvh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section:is(#hot) {
+	background-image: url('/images/hot.jpg');
+}
