@@ -10,21 +10,27 @@
 	color: white;
 }
 
-h1 {
-	font-family: var(--font-headings);
-	color: darkred;
-}
-
 body {
 	min-height: 100dvh;
 	background-color: darkred;
 }
 
 .header {
-	background-color: rgba(37, 1, 1, 0.7);
+	background-color: rgba(37, 1, 20, 0.5);
 	text-align: center;
 	position: fixed;
 	width: 100%;
+	padding: 0.5rem;
+}
+
+.header .link {
+	font-family: var(--font-headings);
+	text-decoration: none;
+	font-size: 1.3rem;
+}
+
+.header .link:not(:last-child) {
+	margin-right: 1.5rem;
 }
 
 .section {
@@ -46,4 +52,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.title {
+	font-family: var(--font-headings);
+	color: darkred;
 }
