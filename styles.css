@@ -71,6 +71,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	gap: 1rem;
+	max-width: 70rem;
 }
 
 .title {
@@ -85,6 +86,7 @@ body {
 	text-align: center;
 	font-size: 1.3rem;
 	width: 100%;
+	max-width: 40rem;
 }
 
 .secondary-text {
@@ -96,6 +98,7 @@ body {
 	padding: 1rem;
 	background-color: rgba(0, 0, 0, 0.7);
 	width: 100%;
+	max-width: 40rem;
 }
 
 .detail {
