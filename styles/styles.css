@@ -1,0 +1,14 @@
+:root {
+	--font-text: 'Poiret One', sans-serif;
+	--font-headings: 'Spirax', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: var(--font-text);
+}
+
+h1 {
+	font-family: var(--font-headings);
+}
