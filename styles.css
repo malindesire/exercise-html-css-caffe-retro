@@ -48,6 +48,10 @@ body {
 	align-items: center;
 }
 
+.section:not(:last-child) {
+	margin-bottom: 1rem;
+}
+
 .section:is(#hot) {
 	background-image: url('/images/hot.jpg');
 }
